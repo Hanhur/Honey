@@ -292,3 +292,50 @@ body
     width: 184px;
     height: 60px;
 }
+/* ================================== Does ========================== */
+.section-does
+{
+    margin-bottom: 100px;
+}
+.does-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 32px;
+}
+.does-block
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 205px 0;
+}
+.does-title
+{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--Black);
+    width: 548px;
+    margin-bottom: 30px;
+}
+.does-text
+{
+
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--Black);
+    width: 516px;
+    margin-bottom: 50px;
+}
+.does-btn
+{
+    display: block;
+    color: var(--White);
+    background-color: var(--Yellow-Orange);
+    margin: 0 auto;
+    padding: 15px 40px;
+    margin-left: 0;
+    width: 184px;
+    height: 60px;
+}

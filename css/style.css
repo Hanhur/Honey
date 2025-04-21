@@ -82,3 +82,141 @@ body
 {
     font-weight: 700;
 }
+/* ================================== Main ============================ */
+.section-honey
+{
+    
+}
+.inner
+{
+    background-image: url(../images/main-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 865px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    position: relative;
+}
+.inner::after
+{
+    content: '';
+    position: absolute;
+    background-image: url(../images/honey-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 124px;
+    right: 10px;
+    left: 803px;
+    bottom: 91px;
+    width: 686px;
+    height: 650px;
+}
+.inner::before
+{
+    content: '';
+    position: absolute;
+    background-image: url(../images/vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 89px;
+    right: 13px;
+    left: 78px;
+    bottom: 165px;
+    width: 1408px;
+    height: 611px;
+}
+.section-honey::after
+{
+    content: '';
+    position: absolute;
+    background-image: url(../images/_x32_.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 120px;
+    left: -30px;
+    width: 205px;
+    height: 321px;
+}
+.honey-title
+{
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0 0 177px;
+    gap: 30px 0;
+    margin-bottom: 70px;
+}
+.honey-title-span_1,
+.honey-title-span_2,
+.honey-title-span_3
+{
+    font-size: 100px;
+    font-weight: 700;
+    z-index: 1;
+    width: 364px;
+}
+.honey-title-span_2
+{
+    padding: 0 0 0 98px;
+}
+.honey-title-span_3
+{
+    padding: 0 0 0 295px;
+    position: relative;
+}
+.honey-title-span_3::after
+{
+    content: '';
+    position: absolute;
+    background-image: url(../images/honey-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: -35px;
+    left: 0;
+    width: 189px;
+    height: 129px;
+}
+.honey-title-span_3::before
+{
+    content: '';
+    position: absolute;
+    top: 88px;
+    left: 0;
+    width: 274px;
+    height: 2px;
+    background-color: var(--Black);
+}
+.honey-btn
+{
+    display: flex;
+    gap: 0 30px;
+    padding: 0 0 0 177px;
+}
+.btn_1,
+.btn_2
+{
+    font-weight: 700;
+    padding: 18px 50px;
+    z-index: 1;
+}
+.btn_1
+{
+    width: 180px;
+    height: 65px;
+    color: var(--White);
+    background-color: var(--Black);
+}
+.btn_2
+{
+    width: 209px;
+    height: 65px;
+    border: 2px solid var(--Black);
+}

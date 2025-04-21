@@ -136,7 +136,7 @@ body
 {
     content: '';
     position: absolute;
-    background-image: url(../images/vector.png);
+    background-image: url(../images/vectors.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

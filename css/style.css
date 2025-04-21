@@ -375,12 +375,22 @@ body
     display: flex;
     gap: 0 30px;
 }
-.product-honey
+.product-honey_1
 {
     display: flex;
     background-color: rgba(229, 130, 17, 7%);
     padding: 45px 40px 45px 30px;   
-    gap: 0 60px;                                                         
+    width: 558px;      
+    height: 305px;                                                 
+}
+.product-honey_2
+{
+    display: flex;
+    background-color: rgba(229, 130, 17, 7%);
+    padding: 45px 40px 45px 30px;   
+    gap: 0 60px;  
+    width: 558px;      
+    height: 305px;                                                 
 }
 .product_box
 {
@@ -412,4 +422,36 @@ body
     margin: 0 auto;
     padding: 10px 30px;
     margin-left: 0;
+}
+/* ================================== Footer ======================= */
+.footer
+{
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 45px 0;
+}
+.footer-inner
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-text
+{
+    font-size: 14px;
+    width: 270px;
+}
+.footer-list
+{
+    display: flex;
+    gap: 0 40px;
+}
+.footer_list
+{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
 }
